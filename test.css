@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.theme-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: inherit;
+}
+
+button:focus {
+    outline: none;
+}
+
+.fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+/* Icon color styles */
+.fa-sun {
+    color: #f39c12;
+}
+
+.fa-moon {
+    color: #f1c40f;
+}
+
+/* styles.css */
+.card {
+    transition: opacity 0.5s ease;
+}
+
+.card.hidden {
+    opacity: 0;
+    display: none;
+}
